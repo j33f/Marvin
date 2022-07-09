@@ -1,0 +1,6 @@
+/.idea/
+.env
+/node_modules/
+/commands/dnd/ambiances/*
+!/commands/dnd/ambiances/.gitkeep
+!/commands/dnd/ambiances/readme.md

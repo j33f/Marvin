@@ -1,0 +1,40 @@
+{
+  "name": "marvin",
+  "version": "1.0.0",
+  "description": "a poor sad bot",
+  "main": "app.js",
+  "author": "Jeff <jeff@modulaweb.fr>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "start": "pm2 start app.js --watch --name Marvin -- --trace-deprecation && pm2 logs Marvin",
+    "logs": "pm2 logs Marvin"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.4.1",
+    "@discordjs/voice": "^0.10.0",
+    "bonjour-madame": "^1.0.9",
+    "discord-api-types": "^0.31.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fast-glob": "^3.2.11",
+    "languagedetect": "^2.0.0",
+    "libsodium-wrappers": "^0.7.10",
+    "node-gettext": "^3.0.0",
+    "require-glob": "^4.0.0",
+    "stopwords-iso": "^1.1.0",
+    "wikijs": "^6.3.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.13.0",
+    "git-cz": "^4.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
