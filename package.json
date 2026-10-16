@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@discordjs/builders": "^0.13.0",
-    "@discordjs/opus": "^0.7.0",
+    "@discordjs/opus": "^0.10.0",
     "@discordjs/rest": "^0.4.1",
     "@discordjs/voice": "^0.10.0",
     "bonjour-madame": "^1.0.9",
@@ -22,7 +22,7 @@
     "fast-glob": "^3.2.11",
     "languagedetect": "^2.0.0",
     "libsodium-wrappers": "^0.7.10",
-    "node-gettext": "^3.0.0",
+    "node-gettext": "^3.0.1",
     "require-glob": "^4.0.0",
     "stopwords-iso": "^1.1.0",
     "wikijs": "^6.3.3"
